@@ -1,0 +1,4 @@
+source "$BR2_EXTERNAL_PITX_IMX8M_PATH/package/gst1-imx-v2/Config.in"
+source "$BR2_EXTERNAL_PITX_IMX8M_PATH/package/libimxdmabuffer/Config.in"
+source "$BR2_EXTERNAL_PITX_IMX8M_PATH/package/libimxvpuapi-v2/Config.in"
+source "$BR2_EXTERNAL_PITX_IMX8M_PATH/package/linux-imx-headers/Config.in"
