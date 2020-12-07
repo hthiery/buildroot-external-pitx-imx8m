@@ -1,6 +1,6 @@
 echo "Root File Sytem on MMC${devnum}"
 setenv rootfs /dev/mmcblk${devnum}p1
-setenv bootargs console=ttymxc2,115200 root=${rootfs}
+setenv bootargs console=ttymxc2,115200 root=${rootfs} rootwait rw
 
 load ${devtype} ${devnum} ${kernel_addr_r} boot/Image
 load ${devtype} ${devnum} ${fdt_addr_r} boot/pitx-imx8m_hdmi.dtb
